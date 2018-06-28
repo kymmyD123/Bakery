@@ -185,3 +185,173 @@ a {
 
     cursor: pointer;
 }
+
+.about-us {
+    min-width: 1200px;
+
+    background-image: url("../img/cakes-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-us .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.about-us__description {
+    width: 450px;
+    padding-top: 95px;
+    padding-bottom: 110px;
+
+    text-align: center;
+}
+
+.about-us__title {
+    padding-bottom: 12px;
+
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 30px;
+    color: #56534c;
+}
+
+.about-us__info {
+    padding-bottom: 54px;
+
+    font-family: 'Alegreya', serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    color: #a47d5e;
+}
+
+.about-us__description-text {
+    padding-bottom: 33px;
+
+    font-family: proxima-nova, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #56534c;
+}
+
+.about-us__description h3 {
+    padding-bottom: 40px;
+
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #56534c;
+}
+
+.cooker-avatar {
+    padding-bottom: 20px;
+
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cooker-avatar p {
+    position: relative;
+
+    font-family: 'Alegreya', serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #56534c;
+}
+
+.cooker-name::after {
+    content: "";
+
+    display: block;
+    width: 112px;
+    height: 1px;
+    position: absolute;
+    top: -12px;
+    left: -23px;
+
+    background-color: #d7d5ca;
+}
+
+.cooker-name::before {
+    content: "";
+
+    display: block;
+    width: 112px;
+    height: 1px;
+    position: absolute;
+    bottom: -12px;
+    left: -23px;
+
+    background-color: #d7d5ca;
+}
+
+
+.cooker-last-name::after {
+    content: "";
+
+    display: block;
+    width: 112px;
+    height: 1px;
+    position: absolute;
+    top: -12px;
+    left: -16px;
+
+    background-color: #d7d5ca;
+}
+
+.cooker-last-name::before {
+    content: "";
+
+    display: block;
+    width: 112px;
+    height: 1px;
+    position: absolute;
+    bottom: -12px;
+    left: -16px;
+
+    background-color: #d7d5ca;
+}
+
+.quote {
+    width: 230px;
+    margin: 0 auto;
+
+    font-family: 'scriptina', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #a47d5e;
+}
+
+.about-us__picture {
+    position: relative;
+
+    padding-top: 100px;
+}
+
+.about-us__picture::before {
+    content: "";
+
+    display: block;
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    bottom: 193px;
+    left: 175px;
+
+    background-image: url("../img/taste-of-cake.png");
+}
+
+.perfect-pancakes {
+    min-width: 1200px;
+
+    background-image: url("../img/bg-widget.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
